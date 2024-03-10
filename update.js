@@ -12,7 +12,7 @@ module.exports = () =>
 					{
 						PYTHONNOUSERSITE: 'True'
 					},
-					message: 'pip uninstall autogenstudio',
+					message: 'pip uninstall autogenstudio -y',
 					path: 'autogen',
 					venv: 'env'
 				}
